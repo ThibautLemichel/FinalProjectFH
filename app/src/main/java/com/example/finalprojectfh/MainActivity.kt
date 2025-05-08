@@ -1,16 +1,13 @@
 package com.example.finalprojectfh
 
-import android.annotation.SuppressLint
-import android.app.Application
+
 import android.os.Bundle
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
@@ -20,7 +17,6 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.finalprojectfh.ui.theme.FinalProjectFHTheme
-import androidx.compose.foundation.lazy.items
 import androidx.activity.ComponentActivity
 import androidx.navigation.navArgument
 import kotlin.getValue
