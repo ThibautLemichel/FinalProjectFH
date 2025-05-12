@@ -1,0 +1,63 @@
+# Gradle files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration files
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+/.idea/modules.xml
+/.idea/.name
+/.idea/misc.xml
+/.idea/caches
+/.idea/assetWizardSettings.xml
+/.idea/codeStyles
+/.idea/gradle.xml
+/.idea/encodings.xml
+.DS_Store
+
+# Android Studio specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Log files
+*.log
+
+# Generated files
+/captures/
+/output.json
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+*.war
+*.ear
+*.db
+*.sqlite
+*.so
+*.keystore
+*.jks
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# MacOS specific files
+.DS_Store
+
+# Kotlin specific
+*.kotlin_metadata
+*.kotlin_module
+
+# Jetpack Compose
+build/generated/
+
+# Miscellaneous
+*.swp
+*.swo
